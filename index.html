@@ -50,7 +50,7 @@
           <h2 class="title is-3" id="overview">Overview</h2>
           <div class="content has-text-justified">
             <p>
-            This visualizes San Francisco's future under the proposed <a href="https://sfplanning.org/sf-family-zoning-plan#draft-maps-policy">Family Zoning Plan</a>. We simulate what the city might look like in 2036 by using a rigorous economic model of how likely each parcel is to be redeveloped. We can't predict the exact future, but we can get a sense of how much might change over 10 years.
+            This visualizes San Francisco's future under the proposed <a href="https://sfplanning.org/sf-family-zoning-plan#draft-maps-policy">Family Zoning Plan</a>. We simulate what the city might look like in 2036 by using a rigorous economic model of how likely each parcel is to be developed. We can't predict the exact future, but we can get a sense of how much might change over 10 years.
             </p>
             <p>
               Some neighborhoods will have almost no visible changes, adding density through low-rise infill development. Some intersections will see large developments.
@@ -270,7 +270,7 @@
             </div>
             <div class="column">
               <div class="content">
-                This is what development might actually look like:
+                This is what the same perspective might actually look like under the Family Zoning Plan:
                 <div id="example30" class="bal-container-small">
                   <div class="bal-after">
                     <img src="./images/NUSF/nusf_cow_hollow_after.jpg">
@@ -309,7 +309,7 @@
             </div>
             <div class="column">
               <div class="content">
-                This is what development might actually look like:
+                This is what the same perspective might actually look like under the Family Zoning Plan:
                 <div id="example31" class="bal-container-small">
                   <div class="bal-after">
                     <img src="./images/NUSF/nusf_masonic_geary_after.jpg">
@@ -348,7 +348,7 @@
             </div>
             <div class="column">
               <div class="content">
-                This is what development might actually look like:
+                This is what the same perspective might actually look like under the Family Zoning Plan:
                 <div id="example32" class="bal-container-small">
                   <div class="bal-after">
                     <img src="./images/NUSF/nusf_richmond_geary_after.jpg">
@@ -387,7 +387,7 @@
             </div>
             <div class="column">
               <div class="content">
-                This is what development might actually look like:
+                This is what the same perspective might actually look like under the Family Zoning Plan:
                 <div id="example33" class="bal-container-small">
                   <div class="bal-after">
                     <img src="./images/NUSF/nusf_sunset_overview_after.jpg">
@@ -643,6 +643,59 @@
         <div class="column is-full-width">
           <h2 class="title is-3" id="marina-cow-hollow">District 2: Marina & Cow Hollow</h2>
           <div class="content has-text-justified">
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          Lombard St. at Scott St., looking West
+          <div id="example34" class="bal-container-small">
+            <div class="bal-after">
+              <img src="./images/lombard_scott_after.jpg">
+              <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                2036
+              </div>
+            </div>
+            <div class="bal-before" style="width:96.4968152866242%;">
+              <div class="bal-before-inset" style="width: 512px;">
+                <img src="./images/lombard_scott_before.jpg">
+                <div class="bal-beforePosition beforeLabel">
+                  Now
+                </div>
+              </div>
+            </div>
+            <div class="bal-handle" style="left:96.4968152866242%;">
+              <span class="handle-left-arrow"></span>
+              <span class="handle-right-arrow"></span>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="columns is-centered">
+            <div class="column content">
+              Lombard St. at Broderick St., looking East
+              <div id="example35" class="bal-container-small">
+                <div class="bal-after">
+                  <img src="./images/lombard_broderick_after.jpg">
+                  <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                    2036
+                  </div>
+                </div>
+                <div class="bal-before" style="width:62.10191082802548%;">
+                  <div class="bal-before-inset" style="width: 512px;">
+                    <img src="./images/lombard_broderick_before.jpg">
+                    <div class="bal-beforePosition beforeLabel">
+                      Now
+                    </div>
+                  </div>
+                </div>
+                <div class="bal-handle" style="left:62.10191082802548%;">
+                  <span class="handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1124,6 +1177,12 @@
     });
     new BeforeAfter({
       id: '#example33'
+    });
+    new BeforeAfter({
+      id: '#example34'
+    });
+    new BeforeAfter({
+      id: '#example35'
     });
     
   </script>
