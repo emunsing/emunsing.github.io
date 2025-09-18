@@ -1,6 +1,7 @@
 name,x_start,y_start,x_end,y_end,
 lombard_scott,185,40,920,500,
 lombard_broderick,0,100,870,500,
+d2_franklin_vallejo,350,120,1030,600,
 d2_franklin_laguna,450,120,1150,600,
 d2_lombard_laguna,250,100,950,500,
 d2_lyon_street_steps,300,150,1000,700,
